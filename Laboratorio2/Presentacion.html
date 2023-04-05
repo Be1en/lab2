@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presentación en HTML</title>
+    <link href="css/estilos_presentacion.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1 class="titulo">Presentación Personal</h1>
+    <p class="caja">
+        Hola, mi nombre es Valeria Godoy, tengo 18 años y me encuentro estudiando
+        la carrera de diseño y desarrollo de software en Tecsup y ya me encuentro
+        en Tercer ciclo. Un gusto.
+    </p><br />
+    <div class="c">
+        <img src="Archivos/foto_personal.jpg.jpg" width="200px" height="250px" /><img
+            src="Archivos/IMG_20230323_213229_908.webp" width="150px" height="250px" />
+    </div>
+    <p> Gracias por visitar mi página, porfavor llena el siguiente formulario.</p>
+    <br />
+    <form class="c">
+        <label for="nombre">Nombre:</label><br /><br />
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" /><br /><br />
+
+        <input type="submit" value="Enviar" />
+        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+    </form><br />
+
+    <hr>
+    <h2 class="titulo">Mis hobbies</h2>
+    <p class="caja">Empezando por mi hobbie principal: el arte</br> Disfruto mucho del arte digital, aqui algunos de mis
+        trabajos:</p><br />
+    <div class="c">
+        <img src="Archivos/practica luz.jpg" width="550px" /> </br>
+        <img src="Archivos/brujas.jpg" width="300px" />
+    </div>
+    <p> Un pequeño video del proceso de uno de estos dibujos </p>
+    <div class="c">
+        <video width="350" height="200" controls>
+            <source src="Archivos/video.mp4.mp4" type="video/mp4">
+        </video>
+    </div>
+    <hr>
+
+    <h3 class="titulo">Lenguajes de Programación</h3>
+    <p>Cuento con conocimiento básico de los siguientes lenguajes:</p><br />
+    <div style="text-align:center;">
+        <table >
+            <tr>
+                <th>Python</th>
+                <th>Java</th>
+                <th>CSS</th>
+                <th>HTML5</th>
+            </tr>
+            <tr>
+                <td><img src="Archivos/python.png" width="150px" /></td>
+                <td><img src="Archivos/java.png" width="150px" /></td>
+                <td><img src="Archivos/css.png" width="150px" /></td>
+                <td><img src="html5.png" width="150px" /></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+.titulo{
+    text-align: center;
+    font-size:40px;
+    padding: 10px;
+    letter-spacing:3px;
+    word-spacing:10px;
+    text-decoration: overline;
+    display: block;
+}
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    background-color: #FF8989;
+    border-radius: 5px;
+    color: white;
+}
+.c{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
